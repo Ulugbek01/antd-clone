@@ -4,6 +4,102 @@
   box-sizing: border-box;
 }
 
+/* Fonts */
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('./fonts/Bebas_Neue/BebasNeue-Regular.woff2') format('woff2'),
+      url('./fonts/Bebas_Neue/BebasNeue-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Poppins fonts */
+@font-face {
+  font-family: 'Poppins';
+  src: url('./fonts/Poppins/Poppins-SemiBold.woff2') format('woff2'),
+      url('./fonts/Poppins/Poppins-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('./fonts/Poppins/Poppins-Medium.woff2') format('woff2'),
+      url('./fonts/Poppins/Poppins-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Red Hat Display fonts */
+@font-face {
+  font-family: 'Red Hat Display';
+  src: url('./fonts/RedHatDisplay/RedHatDisplay-SemiBold.woff2') format('woff2'),
+      url('./fonts/RedHatDisplay/RedHatDisplay-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Red Hat Display';
+  src: url('./fonts/RedHatDisplay/RedHatDisplay-Regular.woff2') format('woff2'),
+      url('./fonts/RedHatDisplay/RedHatDisplay-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Red Hat Display';
+  src: url('./fonts/RedHatDisplay/RedHatDisplay-Black.woff2') format('woff2'),
+      url('./fonts/RedHatDisplay/RedHatDisplay-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Red Hat Display';
+  src: url('./fonts/RedHatDisplay/RedHatDisplay-Medium.woff2') format('woff2'),
+      url('./fonts/RedHatDisplay/RedHatDisplay-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Red Hat Display';
+  src: url('./fonts/RedHatDisplay/RedHatDisplay-Bold.woff2') format('woff2'),
+      url('./fonts/RedHatDisplay/RedHatDisplay-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Red Hat Display';
+  src: url('./fonts/RedHatDisplay/RedHatDisplay-ExtraBold.woff2') format('woff2'),
+      url('./fonts/RedHatDisplay/RedHatDisplay-ExtraBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
-  font-family: sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.c-pointer {
+  cursor: pointer;
 }
